@@ -31,8 +31,8 @@
     Program header entries: 1
     Section header entries: 16
 
-    Program header offset: 672444 (0x000a42bc)
-    Section header offset: 672476 (0x000a42dc)
+    Program header offset: 672212 (0x000a41d4)
+    Section header offset: 672244 (0x000a41f4)
 
     Section header string table index: 15
 
@@ -2152,7 +2152,7 @@
         0x000011f8:    4620         F      MOV      r0,r4
         0x000011fa:    f000f837    ..7.    BL       I2C_Open ; 0x126c
         0x000011fe:    2300        .#      MOVS     r3,#0
-        0x00001200:    2234        4"      MOVS     r2,#0x34
+        0x00001200:    221a        ."      MOVS     r2,#0x1a
         0x00001202:    4619        .F      MOV      r1,r3
         0x00001204:    4620         F      MOV      r0,r4
         0x00001206:    f000f853    ..S.    BL       I2C_SetSlaveAddr ; 0x12b0
@@ -2373,7 +2373,7 @@
         0x000013e6:    e9cd0400    ....    STRD     r0,r4,[sp,#0]
         0x000013ea:    4d0f        .M      LDR      r5,[pc,#60] ; [0x1428] = 0x40048000
         0x000013ec:    2310        .#      MOVS     r3,#0x10
-        0x000013ee:    f64b3280    K..2    MOV      r2,#0xbb80
+        0x000013ee:    f64a4244    J.DB    MOV      r2,#0xac44
         0x000013f2:    4621        !F      MOV      r1,r4
         0x000013f4:    4628        (F      MOV      r0,r5
         0x000013f6:    f000f81d    ....    BL       I2S_Open ; 0x1434
@@ -5426,7 +5426,7 @@
         0x000032c0:    b538        8.      PUSH     {r3-r5,lr}
         0x000032c2:    4c15        .L      LDR      r4,[pc,#84] ; [0x3318] = 0x20000080
         0x000032c4:    4815        .H      LDR      r0,[pc,#84] ; [0x331c] = 0x20004fc4
-        0x000032c6:    4a13        .J      LDR      r2,[pc,#76] ; [0x3314] = 0x8ff1c06
+        0x000032c6:    4a13        .J      LDR      r2,[pc,#76] ; [0x3314] = 0x8ff2c06
         0x000032c8:    e9c42000    ...     STRD     r2,r0,[r4,#0]
         0x000032cc:    4915        .I      LDR      r1,[pc,#84] ; [0x3324] = 0x4000843c
         0x000032ce:    4814        .H      LDR      r0,[pc,#80] ; [0x3320] = 0x40048010
@@ -5459,7 +5459,7 @@
         0x0000330e:    f8c10100    ....    STR      r0,[r1,#0x100]
         0x00003312:    bd38        8.      POP      {r3-r5,pc}
     $d
-        0x00003314:    08ff1c06    ....    DCD    150936582
+        0x00003314:    08ff2c06    .,..    DCD    150940678
         0x00003318:    20000080    ...     DCD    536871040
         0x0000331c:    20004fc4    .O.     DCD    536891332
         0x00003320:    40048010    ...@    DCD    1074036752
@@ -24537,11 +24537,11 @@
 
 
 ** Section #6 '.debug_info' (SHT_PROGBITS)
-    Size   : 110264 bytes
+    Size   : 110376 bytes
 
 
 ** Section #7 '.debug_line' (SHT_PROGBITS)
-    Size   : 47784 bytes
+    Size   : 47792 bytes
 
 
 ** Section #8 '.debug_loc' (SHT_PROGBITS)
@@ -24549,11 +24549,11 @@
 
 
 ** Section #9 '.debug_macinfo' (SHT_PROGBITS)
-    Size   : 327688 bytes
+    Size   : 327740 bytes
 
 
 ** Section #10 '.debug_pubnames' (SHT_PROGBITS)
-    Size   : 5156 bytes
+    Size   : 5205 bytes
 
 
 ** Section #11 '.symtab' (SHT_SYMTAB)
@@ -24571,7 +24571,7 @@
 
 
 ** Section #14 '.comment' (SHT_PROGBITS)
-    Size   : 29364 bytes
+    Size   : 28908 bytes
 
 
 ** Section #15 '.shstrtab' (SHT_STRTAB)

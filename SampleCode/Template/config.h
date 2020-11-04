@@ -18,6 +18,8 @@
 #define PDMA_CH_I2S 						(2)
 #define I2S_PDMA_OPENED_CH   				(1 << PDMA_CH_I2S)
 
+#define MP3File_Size 							(48340UL)				// need to modify
+//#define MP3_address 							(0x11000)		// need to modify
 
 #define PCM_BUFFER_SIZE        				2304
 #define FILE_IO_BUFFER_SIZE    				4096

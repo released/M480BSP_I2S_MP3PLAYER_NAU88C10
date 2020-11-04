@@ -160,18 +160,12 @@ void I2S_Init(void)
     NAU88C10_Reset();
 
     /* Open I2S0 interface and set to slave mode, stereo channel, I2S format */
-    I2S_Open(I2S0, I2S_MODE_MASTER, 48000, I2S_DATABIT_16, I2S_ENABLE_MONO, I2S_FORMAT_I2S);//I2S_DISABLE_MONO
+    I2S_Open(I2S0, I2S_MODE_MASTER, 44100, I2S_DATABIT_16, I2S_ENABLE_MONO, I2S_FORMAT_I2S);//I2S_DISABLE_MONO
 //    NVIC_EnableIRQ(I2S0_IRQn);
 
     /* Set MCLK and enable MCLK */
-	#if defined (USE_MCLK_12M)
     I2S_EnableMCLK(I2S0, USE_NAU88C10_12M);
 //    I2S0->CTL0 |= I2S_CTL0_ORDER_Msk;
-
-	#elif defined (USE_MCLK_12_288M)
-    I2S_EnableMCLK(I2S0, USE_NAU88C10_12_288M);
-//    I2S0->CTL0 |= I2S_CTL0_ORDER_Msk;
-	#endif
 
     /* Initialize NAU88C10 codec */
     CLK_SysTickDelay(20000);
@@ -204,7 +198,7 @@ void I2C0_Init(void)
     /* Open I2C0 and set clock to 100k */
     I2C_Open(I2C0, 100000);
 
-    I2C_SetSlaveAddr(I2C0, 0, DeviceAddr_NAU88C10, I2C_GCMODE_DISABLE);   /* Slave Address : 1101011b */
+    I2C_SetSlaveAddr(I2C0, 0, DeviceAddr_NAU88C10, I2C_GCMODE_DISABLE);   /* Slave Address : 0011 010b */
 
     /* Get I2C0 Bus Clock */
     printf("I2C clock %d Hz\n", I2C_GetBusClockFreq(I2C0));
@@ -251,12 +245,12 @@ void PDMA_IRQHandler(void)
 // Configure PDMA to Scatter Gather mode */
 void PDMA_Init(void)
 {
-    DMA_DESC[0].ctl = ((PCM_BUFFER_SIZE-1)<<PDMA_DSCT_CTL_TXCNT_Pos)|PDMA_WIDTH_16|PDMA_SAR_INC|PDMA_DAR_FIX|PDMA_REQ_SINGLE|PDMA_OP_SCATTER;
+    DMA_DESC[0].ctl = ((PCM_BUFFER_SIZE-1)<<PDMA_DSCT_CTL_TXCNT_Pos)|PDMA_WIDTH_32|PDMA_SAR_INC|PDMA_DAR_FIX|PDMA_REQ_SINGLE|PDMA_OP_SCATTER;
     DMA_DESC[0].src = (uint32_t)&aPCMBuffer[0][0];
     DMA_DESC[0].dest = (uint32_t)&I2S0->TXFIFO;
     DMA_DESC[0].offset = (uint32_t)&DMA_DESC[1] - (PDMA->SCATBA);
 
-    DMA_DESC[1].ctl = ((PCM_BUFFER_SIZE-1)<<PDMA_DSCT_CTL_TXCNT_Pos)|PDMA_WIDTH_16|PDMA_SAR_INC|PDMA_DAR_FIX|PDMA_REQ_SINGLE|PDMA_OP_SCATTER;
+    DMA_DESC[1].ctl = ((PCM_BUFFER_SIZE-1)<<PDMA_DSCT_CTL_TXCNT_Pos)|PDMA_WIDTH_32|PDMA_SAR_INC|PDMA_DAR_FIX|PDMA_REQ_SINGLE|PDMA_OP_SCATTER;
     DMA_DESC[1].src = (uint32_t)&aPCMBuffer[1][0];
     DMA_DESC[1].dest = (uint32_t)&I2S0->TXFIFO;
     DMA_DESC[1].offset = (uint32_t)&DMA_DESC[0] - (PDMA->SCATBA);

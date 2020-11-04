@@ -1,6 +1,18 @@
 # M480BSP_I2S_MP3PLAYER_NAU88C10
  M480BSP_I2S_MP3PLAYER_NAU88C10
 
+update @ 2020/11/04
+
+1. add define ENABLE_USE_INT_FLASH , ENABLE_USE_SD_CARD
+
+2. use ENABLE_USE_INT_FLASH , to separate get MP3 raw data from int. flash and deocde
+
+3. remove define USE_MCLK_12M , USE_MCLK_12_288M in project 
+
+4. modify NAU88C10 I2C address to 0x1A , driver will shift 1 bit (<<1) internally
+
+5. add mp3table with size 48340
+
 update @ 2020/09/24
 
 1. use M487 EVM (I2S master) , to initial NAU88C10 (I2S slave)

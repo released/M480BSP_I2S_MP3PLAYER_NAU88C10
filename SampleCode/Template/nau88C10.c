@@ -89,7 +89,7 @@ uint8_t I2C_WriteNAU88C10(uint8_t u8addr, uint16_t u16data)
     uint8_t reg_addr  = 0;
     uint8_t reg_data  = 0;
 	
-	Device_Address = DeviceAddr_NAU88C10 >> 1;
+	Device_Address = DeviceAddr_NAU88C10;	
 
 	#if 1	
 	reg_addr = ((u8addr << 1) | (u16data >> 8));
@@ -291,20 +291,11 @@ void NAU88C10_Setup(void)
 	I2C_WriteNAU88C10(0x21 , 0x00B);
 	I2C_WriteNAU88C10(0x22 , 0x032);
 	I2C_WriteNAU88C10(0x23 , 0x000);
-
-	#if defined (USE_MCLK_12_288M)	// 12.844
-	I2C_WriteNAU88C10(0x24 , 0x008);
-	I2C_WriteNAU88C10(0x25 , 0x00C);
-	I2C_WriteNAU88C10(0x26 , 0x093);
-	I2C_WriteNAU88C10(0x27 , 0x0E9);
-	
-	#elif defined (USE_MCLK_12M)	// 12M
 	
 	I2C_WriteNAU88C10(0x24 , 0x006);
 	I2C_WriteNAU88C10(0x25 , 0x009);
 	I2C_WriteNAU88C10(0x26 , 0x06E);
 	I2C_WriteNAU88C10(0x27 , 0x12F);
-	#endif
 	
 	I2C_WriteNAU88C10(0x28 , 0x000);
 	I2C_WriteNAU88C10(0x2C , 0x003);

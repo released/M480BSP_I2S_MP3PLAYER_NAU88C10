@@ -1,5 +1,5 @@
 Dependencies for Project 'template', Target 'USE_MCLK_12M': (DO NOT MODIFY !)
-F (..\..\..\Library\Device\Nuvoton\M480\Source\system_M480.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\system_m480.o --omf_browse .\obj\system_m480.crf --depend .\obj\system_m480.d)
+F (..\..\..\Library\Device\Nuvoton\M480\Source\system_M480.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\system_m480.o --omf_browse .\obj\system_m480.crf --depend .\obj\system_m480.d)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
 I (..\..\..\Library\CMSIS\Include\core_cm4.h)(0x5C87199F)
@@ -93,7 +93,7 @@ I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
 F (..\..\..\Library\Device\Nuvoton\M480\Source\ARM\startup_M480.s)(0x5F609440)(--cpu Cortex-M4.fp -g --16 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "Stack_Size SETA 0x2000" --pd "Heap_Size SETA 0x2000"--list .\lst\startup_m480.lst --xref -o .\obj\startup_m480.o --depend .\obj\startup_m480.d)
-F (..\main.c)(0x5F6BF63A)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+F (..\main.c)(0x5FA211D0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
@@ -187,13 +187,13 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-I (..\config.h)(0x5F61BA91)
+I (..\config.h)(0x5FA208D5)
 I (..\..\..\ThirdParty\FATFS\source\diskio.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\integer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ff.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ffconf.h)(0x5C8719A2)
-I (..\i2c_master.h)(0x5F61E196)
-F (..\diskio.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\diskio.o --omf_browse .\obj\diskio.crf --depend .\obj\diskio.d)
+I (..\i2c_master.h)(0x5FA15F3F)
+F (..\diskio.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\diskio.o --omf_browse .\obj\diskio.crf --depend .\obj\diskio.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -292,7 +292,7 @@ I (..\..\..\ThirdParty\FATFS\source\diskio.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\integer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ff.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ffconf.h)(0x5C8719A2)
-F (..\SDGlue.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\sdglue.o --omf_browse .\obj\sdglue.crf --depend .\obj\sdglue.d)
+F (..\SDGlue.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\sdglue.o --omf_browse .\obj\sdglue.crf --depend .\obj\sdglue.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -391,7 +391,7 @@ I (..\..\..\ThirdParty\FATFS\source\diskio.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\integer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ff.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ffconf.h)(0x5C8719A2)
-F (..\mp3.c)(0x5F61BDF6)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\mp3.o --omf_browse .\obj\mp3.crf --depend .\obj\mp3.d)
+F (..\mp3.c)(0x5FA21829)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\mp3.o --omf_browse .\obj\mp3.crf --depend .\obj\mp3.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -486,7 +486,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-I (..\config.h)(0x5F61BA91)
+I (..\config.h)(0x5FA208D5)
 I (..\..\..\ThirdParty\FATFS\source\diskio.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\integer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ff.h)(0x5C8719A2)
@@ -499,7 +499,7 @@ I (..\..\..\ThirdParty\libmad\inc\frame.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\fixed.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
-F (..\MP3HeaderParser.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\mp3headerparser.o --omf_browse .\obj\mp3headerparser.crf --depend .\obj\mp3headerparser.d)
+F (..\MP3HeaderParser.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\mp3headerparser.o --omf_browse .\obj\mp3headerparser.crf --depend .\obj\mp3headerparser.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -594,7 +594,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-I (..\config.h)(0x5F61BA91)
+I (..\config.h)(0x5FA208D5)
 F (..\nau88L25.c)(0x5C8719A0)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\nau88l25.o --omf_browse .\obj\nau88l25.crf --depend .\obj\nau88l25.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -689,7 +689,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\nau88C10.c)(0x5F6BF63A)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\nau88c10.o --omf_browse .\obj\nau88c10.crf --depend .\obj\nau88c10.d)
+F (..\nau88C10.c)(0x5FA211C5)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\nau88c10.o --omf_browse .\obj\nau88c10.crf --depend .\obj\nau88c10.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
@@ -783,9 +783,9 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-I (..\i2c_master.h)(0x5F61E196)
-F (..\i2c_master.c)(0x5EEC6228)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\i2c_master.o --omf_browse .\obj\i2c_master.crf --depend .\obj\i2c_master.d)
-I (..\i2c_master.h)(0x5F61E196)
+I (..\i2c_master.h)(0x5FA15F3F)
+F (..\i2c_master.c)(0x5EEC6228)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\i2c_master.o --omf_browse .\obj\i2c_master.crf --depend .\obj\i2c_master.d)
+I (..\i2c_master.h)(0x5FA15F3F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
@@ -878,7 +878,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\sys.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+F (..\..\..\Library\StdDriver\src\sys.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
 I (..\..\..\Library\CMSIS\Include\core_cm4.h)(0x5C87199F)
@@ -971,7 +971,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\i2s.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\i2s.o --omf_browse .\obj\i2s.crf --depend .\obj\i2s.d)
+F (..\..\..\Library\StdDriver\src\i2s.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\i2s.o --omf_browse .\obj\i2s.crf --depend .\obj\i2s.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
@@ -1064,7 +1064,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\i2c.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\i2c.o --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+F (..\..\..\Library\StdDriver\src\i2c.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\i2c.o --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
 I (..\..\..\Library\CMSIS\Include\core_cm4.h)(0x5C87199F)
@@ -1157,7 +1157,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\clk.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+F (..\..\..\Library\StdDriver\src\clk.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
 I (..\..\..\Library\CMSIS\Include\core_cm4.h)(0x5C87199F)
@@ -1250,7 +1250,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\uart.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+F (..\..\..\Library\StdDriver\src\uart.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
@@ -1343,7 +1343,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\retarget.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+F (..\..\..\Library\StdDriver\src\retarget.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
@@ -1436,7 +1436,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\pdma.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\pdma.o --omf_browse .\obj\pdma.crf --depend .\obj\pdma.d)
+F (..\..\..\Library\StdDriver\src\pdma.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\pdma.o --omf_browse .\obj\pdma.crf --depend .\obj\pdma.d)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
 I (..\..\..\Library\CMSIS\Include\core_cm4.h)(0x5C87199F)
@@ -1529,7 +1529,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\sdh.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\sdh.o --omf_browse .\obj\sdh.crf --depend .\obj\sdh.d)
+F (..\..\..\Library\StdDriver\src\sdh.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\sdh.o --omf_browse .\obj\sdh.crf --depend .\obj\sdh.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
@@ -1624,7 +1624,7 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\Library\StdDriver\src\gpio.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+F (..\..\..\Library\StdDriver\src\gpio.c)(0x5F0BFFD2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\NuMicro.h)(0x5F0BFFD1)
 I (..\..\..\Library\Device\Nuvoton\M480\Include\M480.h)(0x5F0BFFD1)
 I (..\..\..\Library\CMSIS\Include\core_cm4.h)(0x5C87199F)
@@ -1717,12 +1717,12 @@ I (..\..\..\Library\StdDriver\inc\usbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsusbd.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\otg.h)(0x5F0BFFD2)
 I (..\..\..\Library\StdDriver\inc\hsotg.h)(0x5F0BFFD2)
-F (..\..\..\ThirdParty\FATFS\source\ff.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\ff.o --omf_browse .\obj\ff.crf --depend .\obj\ff.d)
+F (..\..\..\ThirdParty\FATFS\source\ff.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\ff.o --omf_browse .\obj\ff.crf --depend .\obj\ff.d)
 I (..\..\..\ThirdParty\FATFS\source\ff.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\integer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\ffconf.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\FATFS\source\diskio.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\version.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\version.o --omf_browse .\obj\version.crf --depend .\obj\version.d)
+F (..\..\..\ThirdParty\libmad\src\version.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\version.o --omf_browse .\obj\version.crf --depend .\obj\version.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1733,7 +1733,7 @@ I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\version.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\bit.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\bit.o --omf_browse .\obj\bit.crf --depend .\obj\bit.d)
+F (..\..\..\ThirdParty\libmad\src\bit.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\bit.o --omf_browse .\obj\bit.crf --depend .\obj\bit.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1743,7 +1743,7 @@ I (..\..\..\ThirdParty\libmad\inc\fixed.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\decoder.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\decoder.o --omf_browse .\obj\decoder.crf --depend .\obj\decoder.d)
+F (..\..\..\ThirdParty\libmad\src\decoder.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\decoder.o --omf_browse .\obj\decoder.crf --depend .\obj\decoder.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1754,7 +1754,7 @@ I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
-F (..\..\..\ThirdParty\libmad\src\fixed.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\fixed.o --omf_browse .\obj\fixed.crf --depend .\obj\fixed.d)
+F (..\..\..\ThirdParty\libmad\src\fixed.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\fixed.o --omf_browse .\obj\fixed.crf --depend .\obj\fixed.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1764,7 +1764,7 @@ I (..\..\..\ThirdParty\libmad\inc\fixed.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\frame.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\frame.o --omf_browse .\obj\frame.crf --depend .\obj\frame.d)
+F (..\..\..\ThirdParty\libmad\src\frame.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\frame.o --omf_browse .\obj\frame.crf --depend .\obj\frame.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1777,7 +1777,7 @@ I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (..\..\..\ThirdParty\libmad\inc\layer12.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\layer3.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\huffman.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\huffman.o --omf_browse .\obj\huffman.crf --depend .\obj\huffman.d)
+F (..\..\..\ThirdParty\libmad\src\huffman.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\huffman.o --omf_browse .\obj\huffman.crf --depend .\obj\huffman.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1788,7 +1788,7 @@ I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\huffman.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\layer3.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\layer3.o --omf_browse .\obj\layer3.crf --depend .\obj\layer3.d)
+F (..\..\..\ThirdParty\libmad\src\layer3.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\layer3.o --omf_browse .\obj\layer3.crf --depend .\obj\layer3.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1804,7 +1804,7 @@ I (..\..\..\ThirdParty\libmad\inc\huffman.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\layer3.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\rq_table.dat)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\imdct_s.dat)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\layer12.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\layer12.o --omf_browse .\obj\layer12.crf --depend .\obj\layer12.d)
+F (..\..\..\ThirdParty\libmad\src\layer12.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\layer12.o --omf_browse .\obj\layer12.crf --depend .\obj\layer12.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1817,9 +1817,9 @@ I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\layer12.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\sf_table.dat)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\qc_table.dat)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\MP3Func.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\mp3func.o --omf_browse .\obj\mp3func.crf --depend .\obj\mp3func.d)
+F (..\..\..\ThirdParty\libmad\src\MP3Func.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\mp3func.o --omf_browse .\obj\mp3func.crf --depend .\obj\mp3func.d)
 I (..\..\..\ThirdParty\libmad\inc\fixed.h)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\stream.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\stream.o --omf_browse .\obj\stream.crf --depend .\obj\stream.d)
+F (..\..\..\ThirdParty\libmad\src\stream.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\stream.o --omf_browse .\obj\stream.crf --depend .\obj\stream.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1830,7 +1830,7 @@ I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
-F (..\..\..\ThirdParty\libmad\src\synth.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\synth.o --omf_browse .\obj\synth.crf --depend .\obj\synth.d)
+F (..\..\..\ThirdParty\libmad\src\synth.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\synth.o --omf_browse .\obj\synth.crf --depend .\obj\synth.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)
@@ -1841,7 +1841,7 @@ I (..\..\..\ThirdParty\libmad\inc\mad_timer.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\synth.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\global.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\D.dat)(0x5C8719A2)
-F (..\..\..\ThirdParty\libmad\src\timer.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED -DUSE_MCLK_12M-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+F (..\..\..\ThirdParty\libmad\src\timer.c)(0x5C8719A2)(-c --cpu Cortex-M4.fp -g -W -O2 --apcs=interwork --split_sections -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\ThirdParty\libmad\inc -I ..\..\..\Library\StdDriver\inc -I ..\..\..\Library\UsbHostLib\INCLUDE -I ..\..\..\Library\UsbHostLib\INCLUDE\inc_mass -I ..\..\..\ThirdParty\FATFS\source-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -D__WINS__ -DOPT_SPEED-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
 I (..\..\..\ThirdParty\libmad\inc\mad.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\decoder.h)(0x5C8719A2)
 I (..\..\..\ThirdParty\libmad\inc\stream.h)(0x5C8719A2)

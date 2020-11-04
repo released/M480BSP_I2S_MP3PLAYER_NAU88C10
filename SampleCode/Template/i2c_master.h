@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "NuMicro.h"
 
-#define DeviceAddr_NAU88C10						(0x34) /* NAU88C10 Device ID */
+#define DeviceAddr_NAU88C10						(0x1A) /* NAU88C10 Device ID */
 
 //#define ENABLE_I2C_POLLING_DISCRETE
 #define ENABLE_I2C_POLLING_API
